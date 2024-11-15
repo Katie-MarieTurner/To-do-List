@@ -1,3 +1,5 @@
+/*! ~~~~~~~~~~~~~~~~~~~~~~~~~~[Element CSS]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 *{
     color: #272838;
 }
@@ -24,6 +26,9 @@ button{
     height: 60px;
     width: 60px;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[List Design]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 ul {
     background: #AFCBD5;
     padding: 20px;
@@ -33,42 +38,9 @@ ul li {
     margin: 10px;
     border-radius: 20px;
 }
-.addTaskBtn, .removeCompletedBtn{
-    font-size: 250%;
-    border-radius: 100%;
-    border-width: 0;
-    background-color: #F2B418;
-    margin-bottom: 0;
-}
-.btn{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    height: auto;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-}
-.input, .list{
-    margin-top: 0;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    background-color:   #AFCBD5;
-    height: auto;
-    width: 50%;
-    padding: 0;
-}
-.completed {
-    text-decoration: line-through;
-    color: #AFCBD5;
-}
-.inputTextFocus, .inputTextBlur {
-    font-size: 25px;
-}
+
+/*! ~~~~~~~~~~~~~~~~~~~~~~~~~~[Id CSS]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 #taskList {
     border-radius: 20px;
     display: none;
@@ -78,6 +50,9 @@ ul li {
     padding: 0;
     margin: 0;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[Input Design]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 #inputTextField{
     font-size: 25px;
     height: 50px;
@@ -98,7 +73,60 @@ ul li {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[Button Click Animations]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 #addTaskBtn:active, .removeCompletedBtn:active{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+/*! ~~~~~~~~~~~~~~~~~~~~~~~~~~[Class CSS]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[Button Design]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.addTaskBtn, .removeCompletedBtn{
+    font-size: 250%;
+    border-radius: 100%;
+    border-width: 0;
+    background-color: #F2B418;
+    margin-bottom: 0;
+}
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[Section Backgrounds]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.input, .list{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    background-color:   #AFCBD5;
+    height: auto;
+    width: 50%;
+    padding: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[Completed Tasks]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.completed {
+    text-decoration: line-through;
+    color: #AFCBD5;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~[Input Text Size]~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.inputTextFocus, .inputTextBlur {
+    font-size: 25px;
 }
